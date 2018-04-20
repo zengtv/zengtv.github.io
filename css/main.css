@@ -1825,7 +1825,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #13faff;
+  background: #2e9ef5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2585,4 +2585,46 @@ embed {
 }
 .links-of-blogroll-inline .links-of-blogroll-item {
   display: inline-block;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.header {
+  background-image: url("../../images/header-bg.jpg");
+}
+.brand {
+  background-color: transparent;
+  opacity: 0.6;
+  line-height: 36px;
+}
+.site-title {
+  font-size: 48px;
+  line-height: 56px;
+  color: #000;
+  cursor: default;
+}
+.menu {
+  margin-top: 20px;
+  padding-left: 0;
+  text-align: center;
+  background: rgba(255,255,255,0.65);
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  border-radius: initial;
+}
+.menu .menu-item a {
+  display: block;
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: inherit;
+  border-bottom: 1px solid transparent;
+  transition-property: border-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
